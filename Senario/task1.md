@@ -17,3 +17,18 @@
 能不能把“开放问题”改写成“结构化输入 + 结构化输出”
 能不能把“复杂任务”拆成多个链式步骤
 能不能用检索结果约束模型，减少幻觉
+
+
+对于 template/index.html 来说，就是需要:
+
+这个 template（templates/index.html）通常是被 Flask 的 render_template() 用的。
+用户访问 /
+app.py 里的路由函数执行
+Flask 调 render_template("index.html")
+返回渲染后的 HTML 给浏览器
+浏览器再加载 /static/script.js 和 /static/styles.css
+
+
+
+This is some simple HTML that will give us a form allowing us to call the /generate endpoint, passing a message and model selection.
+

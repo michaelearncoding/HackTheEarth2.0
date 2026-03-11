@@ -26,3 +26,19 @@ git push --set-upstream origin feature/MM_Setup_Initial
 
 git rm -r --cached IBM
 git commit -m "stop tracking IBM folder"
+
+pip install flask
+
+pip install Flask langchain-ibm langchain
+
+wget -O static/script.js "https://gist.githubusercontent.com/tenzinmigmar/0168709391266a8d8da7936f1a866c71/raw/95f4f4e1a1966b3f5183dd2f822cfcfd08d2238a/script.js"
+
+一个命令行下载工具，用来从 URL 拉文件。
+
+-- -O 表示“输出到这个文件名”。
+意思是把下载内容保存成你项目里的 static/script.js。
+
+wget -O static/styles.css "https://gist.githubusercontent.com/tenzinmigmar/278575598f79a4940993a1fc8640a60a/raw/24eda98885e854b01b4a46d1756112e91d3acc10/styles.css"
+
+
+
