@@ -1,0 +1,46 @@
+[
+    {
+        "employees": [
+            {
+                "id": 1,
+                "name": "Alice Johnson",
+                "position": "Software Engineer",
+                "department": "Engineering",
+                "salary": 85000,
+                "email": "alice.johnson@example.com"
+            },
+            {
+                "id": 2,
+                "name": "Bob Smith",
+                "position": "Data Scientist",
+                "department": "Data Science",
+                "salary": 95000,
+                "email": "bob.smith@example.com"
+            },
+            {
+                "id": 3,
+                "name": "Charlie Brown",
+                "position": "Product Manager",
+                "department": "Product",
+                "salary": 105000,
+                "email": "charlie.brown@example.com"
+            },
+            {
+                "id": 4,
+                "name": "Diana Prince",
+                "position": "UX Designer",
+                "department": "Design",
+                "salary": 75000,
+                "email": "diana.prince@example.com"
+            },
+            {
+                "id": 5,
+                "name": "Ethan Hunt",
+                "position": "DevOps Engineer",
+                "department": "Engineering",
+                "salary": 90000,
+                "email": "ethan.hunt@example.com"
+            }
+        ]
+    }
+]

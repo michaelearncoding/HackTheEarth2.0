@@ -1,0 +1,5 @@
+chromadb
+numpy
+pandas
+requests
+jupyter
