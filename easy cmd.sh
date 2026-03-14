@@ -41,4 +41,6 @@ wget -O static/script.js "https://gist.githubusercontent.com/tenzinmigmar/016870
 wget -O static/styles.css "https://gist.githubusercontent.com/tenzinmigmar/278575598f79a4940993a1fc8640a60a/raw/24eda98885e854b01b4a46d1756112e91d3acc10/styles.css"
 
 
-
+conda create -n chroma-lab python=3.11 -y
+conda activate chroma-lab
+pip install -r requirements.txt
