@@ -44,3 +44,5 @@ wget -O static/styles.css "https://gist.githubusercontent.com/tenzinmigmar/27857
 conda create -n chroma-lab python=3.11 -y
 conda activate chroma-lab
 pip install -r requirements.txt
+
+git rm --cached Sandbox/gitnexus
