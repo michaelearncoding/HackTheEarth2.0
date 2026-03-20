@@ -46,3 +46,7 @@ conda activate chroma-lab
 pip install -r requirements.txt
 
 git rm --cached Sandbox/gitnexus
+
+git pull --rebase origin feature/MM_Setup_Initial
+# resolve conflicts if prompted
+git push origin feature/MM_Setup_Initial
