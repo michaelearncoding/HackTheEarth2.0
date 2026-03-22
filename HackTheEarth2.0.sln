@@ -1,0 +1,97 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sandbox", "Sandbox", "{3D40F055-384E-DE04-BB81-B7972E166B19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gitnexus", "gitnexus", "{6196A497-26A1-D99E-A99A-5351FC144A6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gitnexus", "gitnexus", "{5A3F9B4D-A953-3254-6087-CC6191A89ADF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E8631698-D535-28D0-96BD-0CAB36232FF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fixtures", "fixtures", "{C503ABD0-414D-941C-5044-BA534B157154}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lang-resolution", "lang-resolution", "{5A415D99-84E7-CF06-170F-C008245B3426}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp-pattern-matching", "csharp-pattern-matching", "{FFDB57E7-7B50-3B30-CCD6-48729A2D3981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternMatchProj", "Sandbox\gitnexus\gitnexus\test\fixtures\lang-resolution\csharp-pattern-matching\PatternMatchProj.csproj", "{AC34E81B-693E-7967-0E45-11C57749DE5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp-alias-imports", "csharp-alias-imports", "{919C2032-4259-9E5D-4132-4B68FC644CFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpAlias", "Sandbox\gitnexus\gitnexus\test\fixtures\lang-resolution\csharp-alias-imports\CsharpAlias.csproj", "{FE3D7EC3-E988-0376-BE19-AC95ED06E5DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp-variadic-resolution", "csharp-variadic-resolution", "{799C0B3A-77CD-404A-302D-ABE12607369C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariadicProj", "Sandbox\gitnexus\gitnexus\test\fixtures\lang-resolution\csharp-variadic-resolution\VariadicProj.csproj", "{BBCEFE0D-C048-CE57-AF2A-E0EC54011FE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp-calls", "csharp-calls", "{7A7424D6-FE26-4B5B-5E79-27B6E30E03F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallProj", "Sandbox\gitnexus\gitnexus\test\fixtures\lang-resolution\csharp-calls\CallProj.csproj", "{647858EB-AD8C-2B11-6D57-B27F09EA98B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp-receiver-resolution", "csharp-receiver-resolution", "{ED428532-35C5-FB66-0EC7-22F34DBF00A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiverProj", "Sandbox\gitnexus\gitnexus\test\fixtures\lang-resolution\csharp-receiver-resolution\ReceiverProj.csproj", "{F2547C79-9E49-7BEE-EEDA-3ACC087C59B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp-member-calls", "csharp-member-calls", "{78D1B069-F483-7BAA-3E17-B059FDB4B387}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemberCallProj", "Sandbox\gitnexus\gitnexus\test\fixtures\lang-resolution\csharp-member-calls\MemberCallProj.csproj", "{85DBF496-8DB6-4591-1135-74860BBD10B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC34E81B-693E-7967-0E45-11C57749DE5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC34E81B-693E-7967-0E45-11C57749DE5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC34E81B-693E-7967-0E45-11C57749DE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC34E81B-693E-7967-0E45-11C57749DE5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE3D7EC3-E988-0376-BE19-AC95ED06E5DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE3D7EC3-E988-0376-BE19-AC95ED06E5DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE3D7EC3-E988-0376-BE19-AC95ED06E5DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE3D7EC3-E988-0376-BE19-AC95ED06E5DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBCEFE0D-C048-CE57-AF2A-E0EC54011FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBCEFE0D-C048-CE57-AF2A-E0EC54011FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBCEFE0D-C048-CE57-AF2A-E0EC54011FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBCEFE0D-C048-CE57-AF2A-E0EC54011FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{647858EB-AD8C-2B11-6D57-B27F09EA98B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647858EB-AD8C-2B11-6D57-B27F09EA98B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647858EB-AD8C-2B11-6D57-B27F09EA98B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647858EB-AD8C-2B11-6D57-B27F09EA98B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2547C79-9E49-7BEE-EEDA-3ACC087C59B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2547C79-9E49-7BEE-EEDA-3ACC087C59B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2547C79-9E49-7BEE-EEDA-3ACC087C59B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2547C79-9E49-7BEE-EEDA-3ACC087C59B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85DBF496-8DB6-4591-1135-74860BBD10B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85DBF496-8DB6-4591-1135-74860BBD10B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85DBF496-8DB6-4591-1135-74860BBD10B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85DBF496-8DB6-4591-1135-74860BBD10B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6196A497-26A1-D99E-A99A-5351FC144A6A} = {3D40F055-384E-DE04-BB81-B7972E166B19}
+		{5A3F9B4D-A953-3254-6087-CC6191A89ADF} = {6196A497-26A1-D99E-A99A-5351FC144A6A}
+		{E8631698-D535-28D0-96BD-0CAB36232FF9} = {5A3F9B4D-A953-3254-6087-CC6191A89ADF}
+		{C503ABD0-414D-941C-5044-BA534B157154} = {E8631698-D535-28D0-96BD-0CAB36232FF9}
+		{5A415D99-84E7-CF06-170F-C008245B3426} = {C503ABD0-414D-941C-5044-BA534B157154}
+		{FFDB57E7-7B50-3B30-CCD6-48729A2D3981} = {5A415D99-84E7-CF06-170F-C008245B3426}
+		{AC34E81B-693E-7967-0E45-11C57749DE5C} = {FFDB57E7-7B50-3B30-CCD6-48729A2D3981}
+		{919C2032-4259-9E5D-4132-4B68FC644CFB} = {5A415D99-84E7-CF06-170F-C008245B3426}
+		{FE3D7EC3-E988-0376-BE19-AC95ED06E5DE} = {919C2032-4259-9E5D-4132-4B68FC644CFB}
+		{799C0B3A-77CD-404A-302D-ABE12607369C} = {5A415D99-84E7-CF06-170F-C008245B3426}
+		{BBCEFE0D-C048-CE57-AF2A-E0EC54011FE4} = {799C0B3A-77CD-404A-302D-ABE12607369C}
+		{7A7424D6-FE26-4B5B-5E79-27B6E30E03F1} = {5A415D99-84E7-CF06-170F-C008245B3426}
+		{647858EB-AD8C-2B11-6D57-B27F09EA98B4} = {7A7424D6-FE26-4B5B-5E79-27B6E30E03F1}
+		{ED428532-35C5-FB66-0EC7-22F34DBF00A2} = {5A415D99-84E7-CF06-170F-C008245B3426}
+		{F2547C79-9E49-7BEE-EEDA-3ACC087C59B3} = {ED428532-35C5-FB66-0EC7-22F34DBF00A2}
+		{78D1B069-F483-7BAA-3E17-B059FDB4B387} = {5A415D99-84E7-CF06-170F-C008245B3426}
+		{85DBF496-8DB6-4591-1135-74860BBD10B9} = {78D1B069-F483-7BAA-3E17-B059FDB4B387}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABCAFFFF-A0A1-4230-BB3F-F14942C118E2}
+	EndGlobalSection
+EndGlobal
